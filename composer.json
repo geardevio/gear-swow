@@ -1,0 +1,12 @@
+{
+  "name": "geardev/swow",
+  "description": "Swow extensions for Gear. Part of toolkit to boost your development with Laravel and geardev.io",
+  "autoload": {
+    "psr-4": {
+      "GearDev\\Swow\\": "src/"
+    }
+  },
+  "require": {
+    "swow/swow": "v1.5.2"
+  }
+}
