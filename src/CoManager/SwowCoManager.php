@@ -26,4 +26,9 @@ class SwowCoManager implements CoManagerInterface
     {
         return Coroutine::getCurrent()->getId();
     }
+
+    public static function getCoroutineCount(): int
+    {
+        return Coroutine::count();
+    }
 }

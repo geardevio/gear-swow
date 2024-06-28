@@ -7,6 +7,7 @@
     }
   },
   "require": {
-    "swow/swow": "v1.5.2"
+    "swow/swow": "v1.5.2",
+    "geardev/coroutines": "^0.1"
   }
 }
