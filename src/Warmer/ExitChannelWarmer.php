@@ -25,7 +25,7 @@ class ExitChannelWarmer implements WarmerInterface
     /**
      * @return void
      */
-    public function waitExitSignal(): int
+    public function waitExitSignal(): void
     {
         $co = CoFactory::createCo('exitSignal');
         $co->charge(function() {
